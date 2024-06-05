@@ -11,4 +11,6 @@ export class ResumeComponent {
   constructor(private titleService: Title){
     this.titleService.setTitle('Piotr Zawadzki - Resume')
   }
+
+  DownloadFile(){}
 }
