@@ -1,3 +1,105 @@
 <div class="container text-center">
-    <button class="btn btn-primary mb-5 shadow border">Download PDF Resume</button>
+    <button (click)="DownloadFile()" class="btn btn-primary mb-5 shadow border">Download PDF Resume</button>
+
+
+    <div class="pb-2">
+<accordion [isAnimated]="true" class="shadow">
+        <accordion-group heading="Work Experience">
+            <div>
+                <h2 class="mb-0">Junior Java Developer</h2>
+                <h3 class="text-primary">Essembli sp. z.o.o.</h3>
+                <ul style="text-align: left;">
+                    <li>Opis</li>
+                    <li>*tego</li>
+                    <li>*stanowiska</li>
+                    <li>*here</li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <h2 class="mb-0">Software Consultant</h2>
+                <h3 class="text-primary">NetCompany</h3>
+                <ul style="text-align: left;">
+                    <li>Opis</li>
+                    <li>*tego</li>
+                    <li>*stanowiska</li>
+                    <li>*here</li>
+                </ul>
+            </div>
+
+        </accordion-group>
+        <accordion-group heading="Education">
+           
+                <div>
+                    <h2 class="mb-0">Warsaw University of Life Science</h2>
+                    <h3 class="text-primary">Bachelor's degree</h3>
+                    <ul style="text-align: left;">
+                        <li>Kiedy Skończone</li>
+                        <li> jaka ocena</li>
+                        <li>opis magisterki</li>
+                    </ul>
+                </div>
+                <hr>
+                <div>
+                    <h2 class="mb-0">Master's degree</h2>
+                    <h3 class="text-primary">Warsaw University of Life Science</h3>
+                    <h4 class="text-primary"> Specjalizacja</h4>
+                    <ul style="text-align: left;">
+                        <li>Kiedy Skończone</li>
+                        <li> jaka ocena</li>
+                        <li>opis magisterki</li>
+                    </ul>
+                </div>
+    
+        </accordion-group>
+        <accordion-group heading="Certifications">
+            <div>
+                <h2 class="mb-0">Vertex AI Google Cetrification</h2>
+                <ul style="text-align: left;">
+                    <li>Opis</li>
+                    <li> certyfikatu</li>
+                    <li>w podpunktach</li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <h2 class="mb-0">Langchain AI Google Cetrification</h2>
+                <ul style="text-align: left;">
+                    <li>Opis</li>
+                    <li> certyfikatu</li>
+                    <li>w podpunktach</li>
+                </ul>
+            </div>
+        </accordion-group>
+        <accordion-group heading="Skills">
+            <div class="row">
+                <div class="col">
+                    <h3>Programming Skills</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C#</li>
+                        </ul>
+                </div>
+                <div class="col">
+                    <h3>Frameworks</h3>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>Streamlit</li>
+                            <li>Spring Data</li>
+                        </ul>
+                </div>
+                <div class="col">
+                    <h3>Other Skills</h3>
+                        <ul>
+                            <li>Agile Development</li>
+                            <li>Critical Thinking</li>
+                            <li>MVC Architecture</li>
+                        </ul>
+                </div>
+            </div>
+        </accordion-group>
+    </accordion>
+    </div>
+    
 </div>
